@@ -4,7 +4,7 @@ const sounds = {}; // Object to store the loaded sounds
 // Function to load sounds using Howler.js
 function loadSound(key, soundFile) {
     sounds[key] = new Howl({
-        src: [`sounds/${soundFile}.wav`], // Path to your sound files
+        src: [`Sounds/${soundFile}.wav`], // Path to your sound files
         // Optional: Add more formats for better browser compatibility
         // src: [`sounds/${soundFile}.webm`, `sounds/${soundFile}.mp3`, `sounds/${soundFile}.ogg`] 
     });
